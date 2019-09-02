@@ -18,7 +18,7 @@ public class TreesFormation : MonoBehaviour
         transform.position += new Vector3(0, transform.localScale.y / 2, 0);
         EnergyUse = transform.localScale.x;
     }
-    
+    //This is a stupid change
     void Update()
     {
         TreesFormation.Energy -= EnergyUse * Time.deltaTime / 2;
